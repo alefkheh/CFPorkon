@@ -319,7 +319,7 @@ ____ ____ ____ ____ ____ _  _ _  _ ____ ____
                         progress.remove_task(task_id)
                     progress.stop()
                     progress.log(
-                        f"[yellow]KeyboardInterssrupt detected (scan phase) - start: {START_DT_STR}[/yellow]"
+                        f"[yellow]KeyboardInterrupt detected (scan phase) - start: {START_DT_STR}[/yellow]"
                     )
                     pool.terminate()
                     break
